@@ -83,8 +83,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.08134920634920635,
-      "y": 0.6629526462395543,
+      "x": 0.08796296296296297,
+      "y": 0.67966573816156,
       "uniqueID": "id-82",
       "ioValues": [
         {
@@ -140,113 +140,19 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "move-f343f380-{\"geometry\":[{\"geometry\":\"extrude-f56d8848-3-{\\\"geometry\\\":\\\"text-Seattle Washington-{\\\\\\\"startX\\\\\\\":0,\\\\\\\"startY\\\\\\\":0,\\\\\\\"fontSize\\\\\\\":10,\\\\\\\"fontFamily\\\\\\\":\\\\\\\"ANONYMOUSPRO\\\\\\\"}\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-1-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-2-0--30-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "ioValue": null
         },
         {
           "name": "Shape 2",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "move-f343f380-{\"geometry\":[{\"geometry\":\"extrude-f56d8848-10-{\\\"geometry\\\":\\\"text-Steam Ship-{\\\\\\\"startX\\\\\\\":0,\\\\\\\"startY\\\\\\\":0,\\\\\\\"fontSize\\\\\\\":10,\\\\\\\"fontFamily\\\\\\\":\\\\\\\"ANONYMOUSPRO\\\\\\\"}\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-1-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-2-0-25-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
+          "ioValue": null
         }
       ],
       "unionType": "Fusion"
     },
     {
       "atomType": "Text",
-      "x": 0.6666666666666666,
-      "y": 0.8551532033426184,
+      "x": 0.6567460317460317,
+      "y": 0.6239554317548747,
       "uniqueID": "id-321",
       "ioValues": [
         {
@@ -497,8 +403,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.23082010582010581,
-      "y": 0.5988857938718662,
+      "x": 0.22023809523809526,
+      "y": 0.4874651810584958,
       "uniqueID": "id-95",
       "name": "Scale",
       "ioValues": [
@@ -1332,8 +1238,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -50,
-              "currentEquation": "-50"
+              "ioValue": -50
             },
             {
               "name": "zDist",
@@ -1401,13 +1306,11 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
-              "ioValue": 50,
-              "currentEquation": "50"
+              "ioValue": 50
             },
             {
               "name": "zDist",
