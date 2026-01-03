@@ -244,6 +244,37 @@
       "unionType": "Fusion"
     },
     {
+      "atomType": "Text",
+      "x": 0.6666666666666666,
+      "y": 0.8551532033426184,
+      "uniqueID": "id-321",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Steam Ship",
+          "currentEquation": "Steam Ship"
+        }
+      ],
+      "fontFamily": "PACIFICO",
+      "selectedFontIndex": 7
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.8109090909090909,
+      "y": 0.796657381615599,
+      "uniqueID": "id-325",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.3273809523809524,
       "y": 0.2256267409470752,
@@ -1216,35 +1247,223 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Text",
-      "x": 0.6666666666666666,
-      "y": 0.8551532033426184,
-      "uniqueID": "id-321",
-      "ioValues": [
+      "atomType": "Molecule",
+      "x": 0.6091269841269841,
+      "y": 0.7019498607242339,
+      "uniqueID": "id-482",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
         {
-          "name": "Font Size",
-          "ioValue": 10
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-484"
         },
         {
-          "name": "Text",
-          "ioValue": "Steam Ship",
-          "currentEquation": "Steam Ship"
+          "atomType": "Rectangle",
+          "x": 0.09126984126984126,
+          "y": 0.41225626740947074,
+          "uniqueID": "id-486",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.27910052910052907,
+          "y": 0.4512534818941504,
+          "uniqueID": "id-490",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Add-BOM-Tag",
+          "x": 0.46825396825396826,
+          "y": 0.3593314763231198,
+          "uniqueID": "id-494",
+          "name": "Add BOM Tag",
+          "ioValues": [
+            {
+              "name": "Item Name",
+              "ioValue": "A BOM Item",
+              "currentEquation": "A BOM Item"
+            },
+            {
+              "name": "Number Needed",
+              "ioValue": 1
+            },
+            {
+              "name": "Cost (USD)",
+              "ioValue": 0
+            },
+            {
+              "name": "Source Link",
+              "ioValue": ""
+            }
+          ],
+          "BOMitem": {
+            "BOMitemName": "A BOM Item",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": ""
+          }
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5985449735449735,
+          "y": 0.637883008356546,
+          "uniqueID": "id-501",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": -50,
+              "currentEquation": "-50"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7731481481481481,
+          "y": 0.5738161559888579,
+          "uniqueID": "id-507",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Add-BOM-Tag",
+          "x": 0.38888888888888884,
+          "y": 0.9303621169916434,
+          "uniqueID": "id-512",
+          "name": "Add BOM Tag",
+          "ioValues": [
+            {
+              "name": "Item Name",
+              "ioValue": "A second BOM item",
+              "currentEquation": "A second BOM item"
+            },
+            {
+              "name": "Number Needed",
+              "ioValue": 1
+            },
+            {
+              "name": "Cost (USD)",
+              "ioValue": 0
+            },
+            {
+              "name": "Source Link",
+              "ioValue": ""
+            }
+          ],
+          "BOMitem": {
+            "BOMitemName": "A second BOM item",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": ""
+          }
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4888888888888888,
+          "y": 0.9303621169916434,
+          "uniqueID": "id-519",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 50,
+              "currentEquation": "50"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
-      "fontFamily": "PACIFICO",
-      "selectedFontIndex": 7
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.8109090909090909,
-      "y": 0.796657381615599,
-      "uniqueID": "id-325",
-      "ioValues": [
+      "allConnectors": [
         {
-          "name": "height",
-          "ioValue": 10
+          "ap2Name": "geometry",
+          "ap1ID": "id-486",
+          "ap2ID": "id-490"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-490",
+          "ap2ID": "id-494"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-490",
+          "ap2ID": "id-512"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-494",
+          "ap2ID": "id-501"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-494",
+          "ap2ID": "id-507"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-501",
+          "ap2ID": "id-507"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-507",
+          "ap2ID": "id-484"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-512",
+          "ap2ID": "id-519"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-519",
+          "ap2ID": "id-507"
         }
-      ]
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -1295,6 +1514,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-321",
+      "ap2ID": "id-325"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-35",
       "ap2ID": "id-76"
     },
@@ -1317,11 +1541,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-170",
       "ap2ID": "id-16"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-321",
-      "ap2ID": "id-325"
     }
   ],
   "unitsKey": "MM",
