@@ -151,8 +151,8 @@
     },
     {
       "atomType": "Text",
-      "x": 0.6567460317460317,
-      "y": 0.6239554317548747,
+      "x": 0.7254545454545455,
+      "y": 0.6016713091922006,
       "uniqueID": "id-321",
       "ioValues": [
         {
@@ -161,12 +161,12 @@
         },
         {
           "name": "Text",
-          "ioValue": "Steam Ship",
-          "currentEquation": "Steam Ship"
+          "ioValue": "Test",
+          "currentEquation": "Test"
         }
       ],
-      "fontFamily": "PACIFICO",
-      "selectedFontIndex": 7
+      "fontFamily": "ROBOTO",
+      "selectedFontIndex": 1
     },
     {
       "atomType": "Extrude",
