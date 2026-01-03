@@ -62,6 +62,188 @@
       "uniqueID": "id-20"
     },
     {
+      "atomType": "Move",
+      "x": 0.44907407407407407,
+      "y": 0.3064066852367688,
+      "uniqueID": "id-76",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 25
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Text",
+      "x": 0.08134920634920635,
+      "y": 0.6629526462395543,
+      "uniqueID": "id-82",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Seattle Washington",
+          "currentEquation": "Seattle Washington"
+        }
+      ],
+      "fontFamily": "ANONYMOUSPRO",
+      "selectedFontIndex": 3
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3062169312169312,
+      "y": 0.5459610027855153,
+      "uniqueID": "id-107",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.47354497354497355,
+      "y": 0.5236768802228412,
+      "uniqueID": "id-138",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -30
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.5436507936507936,
+      "y": 0.4902506963788301,
+      "uniqueID": "id-144",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-f343f380-{\"geometry\":[{\"geometry\":\"extrude-f56d8848-3-{\\\"geometry\\\":\\\"text-Seattle Washington-{\\\\\\\"startX\\\\\\\":0,\\\\\\\"startY\\\\\\\":0,\\\\\\\"fontSize\\\\\\\":10,\\\\\\\"fontFamily\\\\\\\":\\\\\\\"ANONYMOUSPRO\\\\\\\"}\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-1-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-2-0--30-5",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "move-f343f380-{\"geometry\":[{\"geometry\":\"extrude-f56d8848-10-{\\\"geometry\\\":\\\"text-Steam Ship-{\\\\\\\"startX\\\\\\\":0,\\\\\\\"startY\\\\\\\":0,\\\\\\\"fontSize\\\\\\\":10,\\\\\\\"fontFamily\\\\\\\":\\\\\\\"ANONYMOUSPRO\\\\\\\"}\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-1-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-2-0-25-5",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.3273809523809524,
       "y": 0.2256267409470752,
@@ -283,47 +465,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Move",
-      "x": 0.44907407407407407,
-      "y": 0.3064066852367688,
-      "uniqueID": "id-76",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 25,
-          "currentEquation": "25"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
-        }
-      ]
-    },
-    {
-      "atomType": "Text",
-      "x": 0.08134920634920635,
-      "y": 0.6629526462395543,
-      "uniqueID": "id-82",
-      "ioValues": [
-        {
-          "name": "Font Size",
-          "ioValue": 10
-        },
-        {
-          "name": "Text",
-          "ioValue": "Seattle Washington",
-          "currentEquation": "Seattle Washington"
-        }
-      ],
-      "fontFamily": "ANONYMOUSPRO",
-      "selectedFontIndex": 3
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.23082010582010581,
       "y": 0.5988857938718662,
@@ -332,8 +473,7 @@
       "ioValues": [
         {
           "name": "Scale Factor",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ],
       "topLevel": false,
@@ -417,18 +557,6 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.3062169312169312,
-      "y": 0.5459610027855153,
-      "uniqueID": "id-107",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -558,139 +686,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Move",
-      "x": 0.47354497354497355,
-      "y": 0.5236768802228412,
-      "uniqueID": "id-138",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": -30,
-          "currentEquation": "-30"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 5,
-          "currentEquation": "5"
-        }
-      ]
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.5436507936507936,
-      "y": 0.4902506963788301,
-      "uniqueID": "id-144",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "move-f343f380-{\"geometry\":[{\"geometry\":\"extrude-f56d8848-{\\\"geometry\\\":\\\"text-Seattle Washington-{\\\\\\\"startX\\\\\\\":0,\\\\\\\"startY\\\\\\\":0,\\\\\\\"fontSize\\\\\\\":10,\\\\\\\"fontFamily\\\\\\\":\\\\\\\"ANONYMOUSPRO\\\\\\\"}\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-3-1-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-2-0--30-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "move-f343f380-{\"geometry\":[{\"geometry\":\"extrude-f56d8848-{\\\"geometry\\\":\\\"text-Steam Ship-{\\\\\\\"startX\\\\\\\":0,\\\\\\\"startY\\\\\\\":0,\\\\\\\"fontSize\\\\\\\":10,\\\\\\\"fontFamily\\\\\\\":\\\\\\\"ANONYMOUSPRO\\\\\\\"}\\\",\\\"dimension\\\":\\\"2D\\\",\\\"tags\\\":[],\\\"plane\\\":{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]},\\\"color\\\":\\\"#aad7f2\\\",\\\"bom\\\":[]}-10-1-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-10\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-2-0-25-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        }
-      ],
-      "unionType": "Fusion"
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.3161375661375661,
       "y": 0.8495821727019498,
@@ -699,18 +694,15 @@
       "ioValues": [
         {
           "name": "Width",
-          "ioValue": 750,
-          "currentEquation": "750"
+          "ioValue": 750
         },
         {
           "name": "Height",
-          "ioValue": 200,
-          "currentEquation": "200"
+          "ioValue": 200
         },
         {
           "name": "Radius",
-          "ioValue": 75,
-          "currentEquation": "75"
+          "ioValue": 75
         }
       ],
       "topLevel": false,
@@ -1222,6 +1214,37 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Text",
+      "x": 0.6666666666666666,
+      "y": 0.8551532033426184,
+      "uniqueID": "id-321",
+      "ioValues": [
+        {
+          "name": "Font Size",
+          "ioValue": 10
+        },
+        {
+          "name": "Text",
+          "ioValue": "Steam Ship",
+          "currentEquation": "Steam Ship"
+        }
+      ],
+      "fontFamily": "PACIFICO",
+      "selectedFontIndex": 7
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.8109090909090909,
+      "y": 0.796657381615599,
+      "uniqueID": "id-325",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1246,16 +1269,6 @@
       "ap2ID": "id-2"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-35",
-      "ap2ID": "id-76"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-64",
-      "ap2ID": "id-8"
-    },
-    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-76",
       "ap2ID": "id-144"
@@ -1266,19 +1279,9 @@
       "ap2ID": "id-95"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-95",
-      "ap2ID": "id-107"
-    },
-    {
       "ap2Name": "Geometry",
       "ap1ID": "id-107",
       "ap2ID": "id-118"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-118",
-      "ap2ID": "id-138"
     },
     {
       "ap2Name": "Shape 1",
@@ -1292,8 +1295,33 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-35",
+      "ap2ID": "id-76"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-64",
+      "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-95",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-118",
+      "ap2ID": "id-138"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-170",
       "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-321",
+      "ap2ID": "id-325"
     }
   ],
   "unitsKey": "MM",
