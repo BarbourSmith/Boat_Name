@@ -118,8 +118,8 @@
       "ioValues": [
         {
           "name": "Font Size",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 35,
+          "currentEquation": "35"
         },
         {
           "name": "Text",
