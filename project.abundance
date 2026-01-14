@@ -1340,6 +1340,41 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.7943121693121694,
+      "y": 0.28690807799442897,
+      "uniqueID": "id-717",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Boat_Name",
+          "currentEquation": "Boat_Name"
+        }
+      ],
+      "partName": "Boat_Name",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -1407,6 +1442,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-713",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-713",
+      "ap2ID": "id-717"
     }
   ],
   "unitsKey": "MM",
