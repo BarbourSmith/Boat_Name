@@ -50,7 +50,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ]
     },
@@ -106,7 +107,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -142,7 +144,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 100,
+          "currentEquation": "100"
         }
       ]
     },
@@ -166,7 +169,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -1327,8 +1331,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6190476190476191,
-      "y": 0.4094707520891365,
+      "x": 0.6236772486772487,
+      "y": 0.403899721448468,
       "uniqueID": "id-713",
       "ioValues": [
         {
@@ -1344,7 +1348,7 @@
     {
       "atomType": "Gcode",
       "x": 0.8015873015873016,
-      "y": 0.25348189415041783,
+      "y": 0.27019498607242337,
       "uniqueID": "id-717",
       "ioValues": [
         {
