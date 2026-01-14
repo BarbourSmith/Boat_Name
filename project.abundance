@@ -1380,6 +1380,36 @@
       ],
       "partName": "Boat_Name",
       "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6911375661375662,
+      "y": 0.9610027855153204,
+      "uniqueID": "id-725",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Boat_Name",
+          "currentEquation": "Boat_Name"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Boat_Name"
     }
   ],
   "allConnectors": [
@@ -1452,6 +1482,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-713",
       "ap2ID": "id-717"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-713",
+      "ap2ID": "id-725"
     }
   ],
   "unitsKey": "MM",
